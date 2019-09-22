@@ -142,7 +142,7 @@ class RIEStatefulBase extends RIEBase {
     const editingHandlers = !this.props.shouldStartEditOnDoubleClick
       ? {
           onFocus: this.startEditing,
-          onClick: this.startEditing,
+          onMouseUp: this.startEditing,
         }
       : {
           onDoubleClick: this.startEditing,

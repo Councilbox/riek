@@ -149,7 +149,8 @@ class RIEBase extends React.Component {
         {...this.props.defaultProps}
         tabindex="0"
         className={this.makeClassString()}
-        onClick={this.elementClick}
+        //onClick={this.elementClick}
+        onMouseUp={this.elementClick}
       >
         {this.formatValue()}
       </span>
