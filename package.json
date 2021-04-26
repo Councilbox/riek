@@ -37,8 +37,8 @@
     "react-dom": "<16.0.0 || ^16.0.0"
   },
   "dependencies": {
-    "debug": "^2.6.8",
     "classnames": "^2.2.5",
+    "debug": "^2.6.8",
     "prop-types": "^15.6.0"
   },
   "devDependencies": {
